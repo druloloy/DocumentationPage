@@ -6,5 +6,61 @@
 html, body{
     height: 100vh;
     width: 100%;
-    background-color: #f1f1f1;;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    position: fixed;
+    height: 100vh;
+    background-color: #ccc; 
+    font-size: 20px;
+    text-align: center;
+    border-right: 2px solid #222;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+nav header{
+    font-size: 40px;
+    margin-bottom: 5%;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+}
+nav a{
+    margin: 20px;
+    text-decoration: none;
+    color: #111;
+}
+
+main{
+    position: relative;
+    flex-wrap: wrap;
+}
+main section{
+    margin: 5%;
+}
+main header{
+    font-size: 35px;
+    font-weight: 600;
+}
+main p{
+    font-size: 20px;
+    margin: 20px;
+    text-indent: 20px;
+}
+main ul{
+    margin: 5%;
+}
+main ul li{
+    font-size: 20px;
+    margin: 5px;
+}
+main code{
+    background-color: #d0d0d0
+}
+main article{
+    font-size: 18px;
 }
